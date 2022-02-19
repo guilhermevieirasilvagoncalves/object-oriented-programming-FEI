@@ -1,7 +1,7 @@
 /*
     @author: Guilherme Vieira Silva Gonçalves
     @course: Ciência da Computação, 3th semester
-    # coded with ❤️ using Visual Studio Code#
+    # ⌨️ with ❤️ using Visual Studio Code #
 */
 
 import java.util.Scanner;
