@@ -19,19 +19,19 @@ public class Lab1Exercicio2 {
         quant = input.nextInt();
         switch(num){
             case 1:
-            valortotal = valortotal + (quant * list[0]);
+            valortotal += (quant * list[0]);
             break;
             case 2:
-            valortotal = valortotal + (quant * list[1]);
+            valortotal += (quant * list[1]);
             break;
             case 3:
-            valortotal = valortotal + (quant * list[2]);
+            valortotal += (quant * list[2]);
             break;
             case 4:
-            valortotal = valortotal + (quant * list[3]);
+            valortotal += (quant * list[3]);
             break;
             case 5:
-            valortotal = valortotal + (quant * list[4]);
+            valortotal += (quant * list[4]);
             break;
         }
         }while(num > 0 && num < 6);
