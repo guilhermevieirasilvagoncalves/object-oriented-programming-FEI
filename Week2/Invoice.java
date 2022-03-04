@@ -19,20 +19,20 @@ public class Invoice {
     }
 
     public void setQuantidade(int quantidade){
-        this.quantidade = quantidade;
         if(quantidade < 0){
             quantidade = 0;
         }
+        this.quantidade = quantidade;
     }
     public int getQuantidade(){
         return quantidade;
     }
 
     public void setPreço(double preço){
-        this.preço = preço;
         if(preço < 0){
             preço = 0;
         }
+        this.preço = preço;
     }
     public double getPreço(){
         return preço;

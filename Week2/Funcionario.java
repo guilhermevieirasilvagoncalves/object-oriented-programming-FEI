@@ -18,10 +18,10 @@ public class Funcionario {
     }
 
     public void setSalariomensal(double salarioMensal){
-        this.salarioMensal = salarioMensal;
         if(salarioMensal < 0){
             salarioMensal = 0;
         }
+        this.salarioMensal = salarioMensal;
     }
     public double getSalariomensal(){
         return salarioMensal;

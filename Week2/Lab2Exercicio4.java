@@ -16,9 +16,8 @@ public class Lab2Exercicio4 {
         System.out.println("Digite a quantidade de itens comprados: ");
         fatura.setQuantidade(Integer.parseInt(input.nextLine()));
         System.out.println("Digite o preço do item: ");
-        fatura.setPreço(Integer.parseInt(input.nextLine()));
-
-
+        fatura.setPreço(Double.parseDouble(input.nextLine()));
+        
         System.out.println("Número identificador: " + fatura.getIdentificador());
         System.out.println("Descrição: " + fatura.getDescrição());
         System.out.println("Quantidade: " + fatura.getQuantidade());
